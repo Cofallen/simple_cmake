@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../inc/main.h
+
+../inc/test1.h
+
+../inc/test2.h
+
+../inc/test3.h
+
+/root/Learn/src/main.cpp
+main.h
+/root/Learn/src/main.h
+test1.h
+/root/Learn/src/test1.h
+test2.h
+/root/Learn/src/test2.h
+test3.h
+/root/Learn/src/test3.h
+iostream
+-
+
+/root/Learn/src/test1.cpp
+test1.h
+/root/Learn/src/test1.h
+
+/root/Learn/src/test2.cpp
+test2.h
+/root/Learn/src/test2.h
+
+/root/Learn/src/test3.cpp
+
